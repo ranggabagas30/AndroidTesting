@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidTesting</string>
+
+    <string-array name="spinner_options">
+        <item>Gayo Natural</item>
+        <item>Ciwiday Arabica</item>
+        <item>Red Velvet</item>
+    </string-array>
+
+    <string name="spinner_result">One %s a day!</string>
+</resources>
