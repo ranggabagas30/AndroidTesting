@@ -35,9 +35,9 @@ class SpinnerInstrumentedTest {
             .check(matches(withText(containsString("Red Velvet"))))
     }
 
-    @Test
-    fun spinner_testDataItemNotInAdapter() {
-        onView(withId(R.id.spinner_test))
-            .check(matches(not(MatcherUtility.withAdaptedData())))
-    }
+//    @Test
+//    fun spinner_testDataItemNotInAdapter() {
+//        onView(withId(R.id.spinner_test))
+//            .check(matches(not(MatcherUtility.withAdaptedData())))
+//    }
 }

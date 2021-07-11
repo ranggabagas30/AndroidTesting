@@ -29,9 +29,20 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test:rules:1.2.0'
+
+    // Required -- JUnit 4 framework
+    testImplementation 'junit:junit:4.12'
+    // Optional -- Robolectric environment
+    testImplementation 'androidx.test:core:1.2.0'
+    // Optional -- Mockito framework
+    // required if using Kotlin
+    testImplementation 'com.nhaarman:mockito-kotlin-kt1.1:1.5.0'
+    // required if used for unit tests
+    testImplementation 'org.mockito:mockito-core:2.7.22'
+    // required if used for Android tests
+    androidTestImplementation 'org.mockito:mockito-android:2.7.22'
 }

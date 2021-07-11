@@ -2,8 +2,7 @@ package com.excercise.androidtesting
 
 import android.util.Log
 import org.junit.After
-import org.junit.Assert.assertEquals
-import org.junit.Assert.assertTrue
+import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
